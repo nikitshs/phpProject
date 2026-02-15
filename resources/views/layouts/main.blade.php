@@ -7,6 +7,14 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    
+    <header>
+        shapka
+    </header>
+    <main>
+        {{ $slot }}
+    </main>
+    <footer>
+        poval
+    </footer>
 </body>
 </html>
