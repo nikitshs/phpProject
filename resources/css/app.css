@@ -8,4 +8,39 @@
 @tailwind utilities;
 
 
+.red {
+    color: red;
+    background: pink;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.green {
+    color: green;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background: lightgreen;
+
+}
+
+.blue {
+    color: blue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background: lightskyblue;
+}
+
+
 
